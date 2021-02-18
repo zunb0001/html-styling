@@ -1,0 +1,125 @@
+
+
+* {
+  box-sizing: border-box
+}
+
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #031d98;
+  font-size: 18px;
+
+}
+/*************************************************************************************/
+/*Navigation Elements Styling*/
+.navbar {
+   left: 0;
+  width: 100%;
+  background-color: #031d98;
+  border-style: groove;
+  
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  text-decoration: none;
+  color: #9ed3f7;
+  font-size: 17px;
+  width: 33%; /* Four links of equal widths */
+  text-align: center;
+}
+.navbar a:hover {
+  background-color: #06124ece;
+  color:white;
+  text-decoration: underline;
+}
+
+ .navbar a:active {
+  color: #be2e76;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+/*************************************************************************************/
+
+
+header, footer {
+
+    padding:5px;
+    background-color:#d4c6cece
+    
+  }
+
+  .site-title{
+    text-align: center;
+    color: #be2e76;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 30px;
+   
+
+  }
+main {
+  padding: 0;
+  max-width: 90%;
+  margin: auto;
+}
+
+* {box-sizing: border-box}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+}
+
+#title {
+  text-decoration: underline;
+}
+/*************************************************************************************/
+
+
+
+/*Image Styling*/
+img {
+  float: left;
+  width: 300px;
+  height: 200px;
+  margin: 0 1rem 1rem 0;
+  
+}
+#my-image {
+
+  box-shadow:  0 0 2px 1px #000;
+}
+/*************************************************************************************/
+
+/*Lists Styling*/
+ul.hob{
+  list-style-type: square;
+}
+.hob li:nth-child(odd) {
+  background-color:#9ed3f7;
+}
+/*************************************************************************************/
+
+
+/*Footer Styling*/
+#footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   
+   color: #be2e76;
+   text-align: center;
+ 
+}
+
+
